@@ -1,0 +1,41 @@
+.game-board {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 504px;
+    animation-name: boardAppear;
+    animation-timing-function: ease;
+    animation-duration: .2s;
+    padding: 4px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+@keyframes boardAppear {
+    0% {
+        transform: translateY(-60px) scaleY(0);
+        transform-origin: top;
+        opacity: 0
+    }
+    100% {
+        transform: translateY(0) scaleY(1);
+        transform-origin: top;
+        opacity: 1
+    }
+}
+
+.react-icon {
+    width: 30px;
+    height: 30px;
+}
+
+h3 {
+    position: absolute;
+}
+
+.new-game-btn {
+    width: 170px;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 85px);
+}

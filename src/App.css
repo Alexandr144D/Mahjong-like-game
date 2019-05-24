@@ -1,0 +1,8 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./assets/backgrounds/white-scratone.png") repeat;
+}

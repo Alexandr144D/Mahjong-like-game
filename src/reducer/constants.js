@@ -1,0 +1,13 @@
+export const START_GAME = "START_GAME";
+
+export const START_NEW_GAME = "START_NEW_GAME";
+
+export const UPDATE_CHOSEN_IF_1 = "UPDATE_CHOSEN_IF_1";
+
+export const UPDATE_CHOSEN_IF_2 = "UPDATE_CHOSEN_IF_2";
+
+export const HIDE_2_LAST_VALUES = "HIDE_2_LAST_VALUES";
+
+export const COLOR_2_LAST_VALUES = "COLOR_2_LAST_VALUES";
+
+export const SHOW_START_NEW_GAME = "SHOW_START_NEW_GAME";
