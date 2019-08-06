@@ -7,13 +7,14 @@ import GameComponent from '../containers/GameComponent/GameComponent';
 
 
 class Router extends React.Component {
-    render() {
+    render () {
         return (
-            <div>
+            <>
                 <Route exact path={Routes.entry} component={EntryComponent}/>
                 <Route exact path={Routes.gamePage} component={GameComponent}/>
-            </div>
+            </>
         )
     }
 }
+
 export default Router;

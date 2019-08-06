@@ -28,9 +28,10 @@ class GameComponent extends React.Component {
     }
 
     render() {
+        console.log(this.props)
         const {isNewGameButtonVisible} = this.props.rootReducer;
         return (
-            <div>
+            <>
                 <BoardComponent upDateBoardState={this.upDateBoardState} {...this.props} />
                 {
                     isNewGameButtonVisible &&
@@ -43,7 +44,7 @@ class GameComponent extends React.Component {
                         New Game
                     </Button>
                 }
-            </div>
+            </>
         )
     }
 }

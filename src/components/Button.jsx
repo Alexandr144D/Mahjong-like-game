@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-function ButtonComponent(props) {
+function ButtonComponent (props) {
     const classes = useStyles();
 
     return (
@@ -19,7 +19,8 @@ function ButtonComponent(props) {
                 color="primary"
                 variant="contained"
                 onClick={props.startGame}
-                className={classes.button}> Start Game </Button>
+                className={classes.button}>Start Game
+            </Button>
         </div>
     );
 }
